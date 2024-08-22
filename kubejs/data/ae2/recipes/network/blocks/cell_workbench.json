@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+        "RWR",
+        "ILI",
+        "ICI"
+    ],
+    "key": {
+        "R": {
+            "item": "create:polished_rose_quartz"
+        },
+		"W": {
+            "tag": "minecraft:wool"
+        },
+        "I": {
+            "tag": "forge:ingots/iron"
+        },
+		"L": {
+            "item": "ae2:calculation_processor"
+        },
+        "C": {
+            "tag": "forge:chests/wooden"
+        }
+    },
+  "result": {
+    "item": "ae2:cell_workbench"
+  },
+  "show_notification": true
+}

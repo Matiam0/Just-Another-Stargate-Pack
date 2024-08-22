@@ -1,0 +1,31 @@
+{
+	Nope, find craft on create folder
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "tag": "forge:plates/obsidian"
+    },
+    "b": {
+      "item": "ae2:logic_processor"
+    },
+    "c": {
+      "item": "ae2:engineering_processor"
+    },
+    "d": {
+      "item": "ae2:dense_energy_cell"
+    },
+    "e": {
+      "tag": "ae2:smart_dense_cable"
+    }
+  },
+  "pattern": [
+    "aba",
+    "cde",
+    "aba"
+  ],
+  "result": {
+    "item": "nope"
+  },
+  "show_notification": true
+}

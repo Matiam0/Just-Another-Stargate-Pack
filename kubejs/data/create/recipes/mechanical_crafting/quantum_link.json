@@ -1,0 +1,29 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "a": {
+      "item": "ae2:quartz_glass"
+    },
+    "b": {
+      "item": "ae2:fluix_pearl"
+    },
+    "c": {
+      "tag": "forge:dusts/fluix"
+    },
+	"d": {
+      "item": "create:sturdy_sheet"
+    }
+  },
+  "pattern": [
+    "cd dc",
+    "dabad",
+    " b b ",
+    "dabad",
+    "cd dc"
+  ],
+  "result": {
+    "count": 1,
+    "item": "ae2:quantum_link"
+  }
+}

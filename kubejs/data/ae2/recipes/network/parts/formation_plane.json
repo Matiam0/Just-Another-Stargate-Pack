@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "tag": "ae2:all_fluix"
+    },
+    "b": {
+      "tag": "forge:ingots/iron"
+    },
+    "c": {
+      "item": "ae2:formation_core"
+    },
+	"d": {
+      "item": "create:brass_hand"
+    }
+  },
+  "pattern": [
+	" a ",
+    "ada",
+    "bcb"
+  ],
+  "result": {
+    "item": "ae2:formation_plane"
+  },
+  "show_notification": true
+}

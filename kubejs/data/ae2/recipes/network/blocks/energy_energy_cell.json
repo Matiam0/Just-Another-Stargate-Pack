@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "tag": "ae2:all_certus_quartz"
+    },
+    "b": {
+      "tag": "forge:dusts/fluix"
+    },
+    "c": {
+      "item": "create:brass_casing"
+    },
+	"d": {
+      "item": "create:electron_tube"
+    }
+  },
+  "pattern": [
+    "aba",
+    "dcd",
+    "aba"
+  ],
+  "result": {
+    "item": "ae2:energy_cell"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "tag": "forge:plates/brass"
+    },
+    "b": {
+      "item": "ae2:quartz_glass"
+    },
+    "c": {
+      "item": "ae2:annihilation_core"
+    },
+    "d": {
+      "item": "create:mechanical_crafter"
+    },
+    "e": {
+      "item": "ae2:formation_core"
+    }
+  },
+  "pattern": [
+    "aba",
+    "cde",
+    "aba"
+  ],
+  "result": {
+    "item": "ae2:molecular_assembler"
+  },
+  "show_notification": true
+}

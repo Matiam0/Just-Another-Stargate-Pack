@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "tag": "forge:plates/brass"
+    },
+    "b": {
+      "item": "ae2:engineering_processor"
+    },
+    "c": {
+      "item": "ae2:fluix_glass_cable"
+    },
+	"d": {
+      "item": "create:brass_casing"
+    }
+  },
+  "pattern": [
+    "aba",
+    "cdc",
+    "aba"
+  ],
+  "result": {
+    "item": "ae2:drive"
+  },
+  "show_notification": true
+}

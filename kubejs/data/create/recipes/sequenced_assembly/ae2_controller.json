@@ -1,0 +1,92 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "ae2:engineering_processor"
+  },
+  "loops": 4,
+  "results": [
+    {
+      "chance": 120.0,
+      "item": "ae2:controller"
+    },
+    {
+      "chance": 4.0,
+      "item": "ae2:engineering_processor"
+    },
+    {
+      "chance": 2.0,
+      "item": "create:brass_sheet"
+    },
+    {
+      "chance": 2.0,
+      "item": "ae2:smooth_sky_stone_block"
+    },
+    {
+      "chance": 2.0,
+      "item": "ae2:fluix_crystal"
+    },
+    {
+      "chance": 1.0,
+      "item": "create:brass_casing"
+    },
+    {
+      "item": "create:brass_block"
+    },
+	{
+      "item": "ae2:mysterious_cube"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "ae2:engineering_processor"
+        },
+        {
+          "item": "ae2:smooth_sky_stone_block"
+        }
+      ],
+      "results": [
+        {
+          "item": "ae2:engineering_processor"
+        }
+      ]
+    },
+	{
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "ae2:engineering_processor"
+        },
+        {
+          "tag": "forge:gems/fluix"
+        }
+      ],
+      "results": [
+        {
+          "item": "ae2:engineering_processor"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "ae2:engineering_processor"
+        },
+        {
+          "item": "create:brass_sheet"
+        }
+      ],
+      "results": [
+        {
+          "item": "ae2:engineering_processor"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "ae2:engineering_processor"
+  }
+}

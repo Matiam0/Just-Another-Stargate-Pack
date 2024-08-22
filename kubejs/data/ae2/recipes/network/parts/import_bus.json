@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "item": "ae2:annihilation_core"
+    },
+    "b": {
+      "item": "create:andesite_alloy"
+    },
+    "c": {
+      "item": "create:portable_storage_interface"
+    }
+  },
+  "pattern": [
+    " a ",
+    "bcb"
+  ],
+  "result": {
+    "item": "ae2:import_bus"
+  },
+  "show_notification": true
+}

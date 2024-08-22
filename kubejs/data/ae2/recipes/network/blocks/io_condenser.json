@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "tag": "forge:ingots/brass"
+    },
+    "b": {
+      "tag": "forge:glass"
+    },
+    "c": {
+      "item": "ae2:fluix_pearl"
+    }
+  },
+  "pattern": [
+    "aba",
+    "bcb",
+    "aba"
+  ],
+  "result": {
+    "item": "ae2:condenser"
+  },
+  "show_notification": true
+}

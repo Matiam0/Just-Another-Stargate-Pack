@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "item": "create:andesite_alloy"
+    },
+    "b": {
+      "item": "minecraft:furnace"
+    },
+    "c": {
+      "item": "ae2:energy_acceptor"
+    },
+    "d": {
+      "tag": "forge:plates/copper"
+    },
+    "e": {
+      "tag": "forge:gems/fluix"
+    }
+  },
+  "pattern": [
+    "ded",
+    "aba",
+    "aca"
+  ],
+  "result": {
+    "item": "ae2:vibration_chamber"
+  },
+  "show_notification": true
+}

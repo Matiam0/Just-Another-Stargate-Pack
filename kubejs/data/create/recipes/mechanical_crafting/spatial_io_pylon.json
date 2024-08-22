@@ -1,0 +1,35 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "a": {
+      "item": "ae2:quartz_glass"
+    },
+    "b": {
+      "item": "ae2:fluix_glass_cable"
+    },
+    "c": {
+      "tag": "forge:dusts/fluix"
+    },
+    "d": {
+      "tag": "ae2:all_fluix"
+    },
+	"e": {
+      "item": "ae2:fluix_pearl"
+    },
+	"f": {
+      "item": "create:sturdy_sheet"
+    }
+  },
+  "pattern": [
+    " fcf ",
+    "fabaf",
+    "cdedc",
+    "fabaf",
+    " fcf "
+  ],
+  "result": {
+    "count": 1,
+    "item": "ae2:spatial_pylon"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+	  "a": {
+      "item": "create:andesite_alloy"
+    },
+    "p": {
+      "tag": "forge:plates/copper"
+    },
+    "l": {
+      "item": "create:electron_tube"
+    }
+  },
+  "pattern": [
+    "apa",
+    "p p",
+    "ala"
+  ],
+  "result": {
+    "item": "ae2:charger"
+  },
+  "show_notification": true
+}

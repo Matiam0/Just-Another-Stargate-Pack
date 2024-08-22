@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "tag": "forge:ingots/brass"
+    },
+    "b": {
+      "tag": "forge:glass"
+    },
+    "c": {
+      "item": "ae2:annihilation_core"
+    },
+    "d": {
+      "item": "ae2:formation_core"
+    },
+	"e": {
+      "item": "create:goggles"
+    }
+  },
+  "pattern": [
+    "aba",
+    "ced",
+    "aba"
+  ],
+  "result": {
+    "item": "ae2:interface"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,98 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "ae2:calculation_processor"
+  },
+  "loops": 4,
+  "results": [
+    {
+      "chance": 120.0,
+      "item": "ae2:dense_energy_cell"
+    },
+    {
+      "chance": 0.10,
+      "item": "ae2:energy_cell"
+    },
+    {
+      "chance": 0.10,
+      "item": "ae2:calculation_processor"
+    },
+    {
+      "chance": 0.10,
+      "item": "create:sturdy_sheet"
+    },
+    {
+      "chance": 0.10,
+      "item": "ae2:fluix_crystal"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "ae2:calculation_processor"
+        },
+        {
+          "item": "ae2:energy_cell"
+        }
+      ],
+      "results": [
+        {
+          "item": "ae2:calculation_processor"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "ae2:calculation_processor"
+        },
+        {
+          "item": "ae2:energy_cell"
+        }
+      ],
+      "results": [
+        {
+          "item": "ae2:calculation_processor"
+        }
+      ]
+    },
+	{
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "ae2:calculation_processor"
+        },
+        {
+          "tag": "forge:dusts/fluix"
+        }
+      ],
+      "results": [
+        {
+          "item": "ae2:calculation_processor"
+        }
+      ]
+    },
+	{
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "ae2:calculation_processor"
+        },
+        {
+          "tag": "forge:plates/obsidian"
+        }
+      ],
+      "results": [
+        {
+          "item": "ae2:calculation_processor"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "ae2:calculation_processor"
+  }
+}

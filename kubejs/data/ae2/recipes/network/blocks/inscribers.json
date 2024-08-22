@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "item": "create:andesite_alloy"
+    },
+    "b": {
+      "item": "create:mechanical_press"
+    },
+    "c": {
+      "tag": "forge:plates/copper"
+    },
+	"d": {
+      "item": "create:andesite_casing"
+    }
+  },
+  "pattern": [
+    "aba",
+    "cdc",
+    "aba"
+  ],
+  "result": {
+    "item": "ae2:inscriber"
+  },
+  "show_notification": true
+}

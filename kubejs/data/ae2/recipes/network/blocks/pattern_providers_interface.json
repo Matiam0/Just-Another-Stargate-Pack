@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "tag": "forge:ingots/brass"
+    },
+    "b": {
+      "item": "minecraft:crafting_table"
+    },
+    "c": {
+      "item": "ae2:annihilation_core"
+    },
+    "d": {
+      "item": "ae2:formation_core"
+    },
+	"e": {
+      "item": "create:crafting_blueprint"
+    }
+  },
+  "pattern": [
+    "aba",
+    "ced",
+    "aba"
+  ],
+  "result": {
+    "item": "ae2:pattern_provider"
+  },
+  "show_notification": true
+}

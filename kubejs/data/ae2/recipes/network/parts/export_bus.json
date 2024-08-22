@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "item": "create:andesite_alloy"
+    },
+    "b": {
+      "item": "ae2:formation_core"
+    },
+    "c": {
+      "item": "create:portable_storage_interface"
+    }
+  },
+  "pattern": [
+    "aba",
+    " c "
+  ],
+  "result": {
+    "item": "ae2:export_bus"
+  },
+  "show_notification": true
+}

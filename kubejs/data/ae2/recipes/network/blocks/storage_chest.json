@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "tag": "forge:glass"
+    },
+    "b": {
+      "item": "ae2:terminal"
+    },
+    "c": {
+      "item": "ae2:fluix_glass_cable"
+    },
+    "d": {
+      "tag": "forge:plates/brass"
+    },
+    "e": {
+      "tag": "forge:plates/copper"
+    },
+	"f": {
+      "item": "create:brass_casing"
+    }
+  },
+  "pattern": [
+    "aba",
+    "cfc",
+    "ded"
+  ],
+  "result": {
+    "item": "ae2:chest"
+  },
+  "show_notification": true
+}

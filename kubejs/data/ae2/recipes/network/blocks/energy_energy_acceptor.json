@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+	  "item": "create:andesite_alloy"
+    },
+    "l": {
+      "item": "create:electron_tube"
+      },
+    "p": {
+      "tag": "forge:plates/copper"
+    },
+    "g": {
+      "item": "ae2:quartz_glass"
+    },
+    "s": {
+      "item": "create:metal_bracket"
+    }
+  },
+  "pattern": [
+    "ala",
+    "pgp",
+    "asa"
+  ],
+  "result": {
+    "item": "ae2:energy_acceptor"
+  },
+  "show_notification": true
+}

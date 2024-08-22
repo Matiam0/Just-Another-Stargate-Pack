@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "tag": "ae2:all_nether_quartz"
+    },
+    "b": {
+      "tag": "forge:dusts/fluix"
+    },
+    "c": {
+      "item": "ae2:logic_processor"
+    },
+	"d": {
+      "item": "create:andesite_alloy"
+    }
+  },
+  "pattern": [
+	" d ",
+    "abc",
+	" d "
+  ],
+  "result": {
+    "count": 2,
+    "item": "ae2:annihilation_core"
+  },
+  "show_notification": true
+}
