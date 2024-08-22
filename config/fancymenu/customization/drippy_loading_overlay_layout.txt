@@ -1,0 +1,161 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = drippy_loading_overlay
+  render_custom_elements_behind_vanilla = false
+  last_edited_time = 1724285501979
+  is_enabled = true
+  randommode = false
+  randomgroup = 1
+  randomonlyfirsttime = false
+  layout_index = 0
+  [loading_requirement_container_meta:a2b12f6e-0dfd-49c0-bf03-d4e1ef96257a-1724285464362] = [groups:][instances:]
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = false
+}
+
+scroll_list_customization {
+  preserve_scroll_list_header_footer_aspect_ratio = true
+  render_scroll_list_header_shadow = true
+  render_scroll_list_footer_shadow = true
+  show_scroll_list_header_footer_preview_in_editor = false
+  repeat_scroll_list_header_texture = false
+  repeat_scroll_list_footer_texture = false
+}
+
+element {
+  bar_color = #FFFFFFFF
+  background_color = #000000
+  direction = right
+  progress_for_element_anchor = true
+  progress_source = 100
+  value_mode = percentage
+  element_type = progress_bar
+  instance_identifier = 4eb7ba15-e27a-4179-a709-49374e4b33b9-1724280985131
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = bottom-centered
+  advanced_width = 200
+  advanced_height = 10
+  x = -100
+  y = -48
+  width = 50
+  height = 50
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = 8709eb6b-839a-4727-8676-ae315526bf8a-1724280985131
+  [loading_requirement_container_meta:8709eb6b-839a-4727-8676-ae315526bf8a-1724280985131] = [groups:][instances:]
+}
+
+element {
+  interactable = false
+  source = Just Another Stargate Pack%n%v0.4.8
+  source_mode = direct
+  shadow = true
+  scale = 1.0
+  base_color = #FFFFFFFF
+  text_border = 2
+  line_spacing = 2
+  enable_scrolling = true
+  auto_line_wrapping = true
+  remove_html_breaks = true
+  code_block_single_color = #737373FF
+  code_block_multi_color = #565656FF
+  headline_line_color = #A9A9A9FF
+  separation_line_color = #A9A9A9FF
+  hyperlink_color = #0771FCFF
+  quote_color = #818181FF
+  quote_indent = 8.0
+  quote_italic = false
+  bullet_list_dot_color = #A9A9A9FF
+  bullet_list_indent = 8.0
+  bullet_list_spacing = 3.0
+  parse_markdown = true
+  element_type = text_v2
+  instance_identifier = e35f2488-b068-4a53-85bb-cd107b7012b7-1724285304581
+  appearance_delay = every_time
+  appearance_delay_seconds = 1.0
+  fade_in = true
+  fade_in_speed = 1.0
+  anchor_point = mid-centered
+  x = -325
+  y = 168
+  width = 150
+  height = 24
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = 42555c33-7f53-4fc2-9b3d-4150dc7ad1f3-1724285304581
+  [loading_requirement_container_meta:42555c33-7f53-4fc2-9b3d-4150dc7ad1f3-1724285304581] = [groups:][instances:]
+}
+
+vanilla_button {
+  button_element_executable_block_identifier = 6418c772-42a0-4eef-89ac-6dc19fb1e95d-1724280834640
+  [executable_block:6418c772-42a0-4eef-89ac-6dc19fb1e95d-1724280834640][type:generic] = [executables:]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  navigatable = true
+  element_type = vanilla_button
+  instance_identifier = progress_bar
+  appearance_delay = every_time
+  appearance_delay_seconds = 1000.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = vanilla
+  x = 140
+  y = 294
+  width = 360
+  height = 10
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = c1b0cb6e-d3bb-4053-a3b8-e17609d24bbf-1724280834640
+  [loading_requirement_container_meta:c1b0cb6e-d3bb-4053-a3b8-e17609d24bbf-1724280834640] = [groups:][instances:]
+  is_hidden = true
+  automated_button_clicks = 0
+  nine_slice_slider_handle = false
+  nine_slice_slider_handle_border_x = 5
+  nine_slice_slider_handle_border_y = 5
+}
+
+vanilla_button {
+  button_element_executable_block_identifier = 3a5e2ad3-bba8-4475-b015-7e8594f501f0-1724280834640
+  [executable_block:3a5e2ad3-bba8-4475-b015-7e8594f501f0-1724280834640][type:generic] = [executables:]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  navigatable = true
+  element_type = vanilla_button
+  instance_identifier = mojang_logo
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = vanilla
+  x = 140
+  y = 135
+  width = 360
+  height = 90
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = d4591420-d88c-45bb-bd6a-736be2a617e3-1724280834640
+  [loading_requirement_container_meta:d4591420-d88c-45bb-bd6a-736be2a617e3-1724280834640] = [groups:][instances:]
+  is_hidden = false
+  automated_button_clicks = 0
+  nine_slice_slider_handle = false
+  nine_slice_slider_handle_border_x = 5
+  nine_slice_slider_handle_border_y = 5
+}
+
